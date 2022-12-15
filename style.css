@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container {
+    background: linear-gradient(to top, #bcc5ce 0%, #939fae 35%);
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#profile-picture {
+    width: 253px;
+    clip-path: circle(120px);
+    background-color: white;
+}
